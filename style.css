@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1abc9c;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+
+.loggo {
+  margin: 6px;
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+/*Navigering*/
+.topnavigering {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  text-shadow: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: large;
+}
+
+li a:hover:not(.ansök) {
+  background-color: #111;
+}
+
+.Ansök-knapp:hover {
+  background-color: aquamarine;
+}
+
+.ansök {
+  background-color: #04aa6d;
+  border-radius: 10px;
+}
+
+/*Navigering*/
+
+/*Div1*/
+.hero {
+  /*backgrunds bild*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(blob.jfif);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+h1 {
+  /*huvudtext*/
+  margin-top: 100px;
+  text-align: center;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+}
+
+.p1 {
+  /*undertext*/
+  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+}
+
+.Ansök-knapp {
+  /*Button*/
+  border-radius: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*Div1*/
+
+/*Div2*/
+.info {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.asian {
+  width: 50%;
+  margin: 50px;
+}
+
+.mintext {
+  color: black;
+  justify-content: space-between;
+  flex-direction: column;
+}
+/*Div2*/
+
+/*Div3*/
+
+.elever {
+  background-color: yellow;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+.fråga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: xx-large;
+}
+
+.chad {
+  border-radius: 20px;
+}
+
+.ohno {
+  border-radius: 20px;
+}
+
+.sans {
+  border-radius: 20px;
+}
+
+/*Div3*/
+
+/*Div4*/
+.join {
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+}
+.öppen {
+  font-size: x-large;
+}
+
+/*Div4*/
+
+/*Div5*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+.fotnavigering1 {
+  list-style-type: none;
+}
+
+.fotnavigering2 {
+  list-style-type: none;
+}
+
+.merinfo {
+  margin-bottom: 20px;
+}
+
+.fotnavigering3 {
+  margin: 6px;
+  margin-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+/*Div5*/
